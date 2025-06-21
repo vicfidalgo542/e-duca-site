@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Educação Superior - Programas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/e-duca-site/assets/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/e-duca-site/index.html">
+                <img src="/e-duca-site/assets/images/logofinal e-duca branca.png" alt="Logo" width="140" height="70" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#mainNav" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/e-duca-site/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/e-duca-site/noticias.html">Notícias</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" 
+                           data-bs-toggle="dropdown" aria-expanded="false">Educação</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/e-duca-site/educacao/basico.html">Básico</a></li>
+                            <li><a class="dropdown-item" href="/e-duca-site/educacao/fundamental.html">Fundamental</a></li>
+                            <li><a class="dropdown-item" href="/e-duca-site/educacao/medio.html">Médio</a></li>
+                            <li><a class="dropdown-item" href="/e-duca-site/educacao/tecnico.html">Técnico</a></li>
+                            <li><a class="dropdown-item active" href="/e-duca-site/educacao/superior.html">Superior</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/e-duca-site/sobre.html">Sobre Nós</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mt-5 pt-5">
+        <header class="mb-5">
+            <h1 class="display-5 fw-bold mb-4">Educação Superior - Programas Disponíveis</h1>
+            <p class="lead-lg text-muted">Programas que oferecem financiamento, bolsas e apoio para estudantes universitários.</p>
+        </header>
+
+        <section>
+            <!-- FIES -->
+            <article class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4">FIES (Fundo de Financiamento Estudantil)</h2>
+                    <p>Programa de financiamento para estudantes universitários em instituições privadas, com possibilidade de financiar até 100% do curso, com pagamento após a graduação.</p>
+                    <p><strong>Quem pode participar?</strong></p>
+                    <ul>
+                        <li>Renda familiar bruta mensal de até 3 salários-mínimos por pessoa.</li>
+                        <li>Ter feito o ENEM a partir de 2010 com média mínima de 450 pontos e nota na redação acima de zero.</li>
+                    </ul>
+                    <a href="http://portalfies.mec.gov.br/?pagina=legislacao" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Editais e Mais informações</a>
+                </div>
+            </article>
+
+            <!-- PROUNI -->
+            <article class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4">PROUNI (Programa Universidade para Todos)</h2>
+                    <p>Oferece bolsas integrais ou parciais para estudantes de baixa renda em universidades particulares, sem necessidade de pagamento após a conclusão do curso.</p>
+                    <p><strong>Quem pode participar?</strong></p>
+                    <ul>
+                        <li>Ter cursado o ensino médio em escola pública ou escola particular com bolsa integral.</li>
+                        <li>Média mínima de 450 pontos no ENEM e nota na redação acima de zero.</li>
+                        <li>Renda familiar de até 1,5 salário-mínimo (bolsas integrais) ou até 3 salários-mínimos (bolsas parciais) por pessoa.</li>
+                    </ul>
+                    <a href="https://acessounico.mec.gov.br/prouni" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Editais e Mais informações</a>
+                </div>
+            </article>
+
+            <!-- PNAES -->
+            <article class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4">PNAES (Plano Nacional de Assistência Estudantil)</h2>
+                    <p>Auxílio para permanência de alunos em universidades e institutos federais, incluindo apoio financeiro, moradia, alimentação e transporte.</p>
+                    <p><strong>Quem pode participar?</strong> Estudantes em situação de vulnerabilidade socioeconômica nas instituições federais.</p>
+                    <p>Consulte a secretaria de assistência estudantil da sua universidade para orientações específicas.</p>
+                    <a href="https://www.gov.br/mec/pt-br" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Mais informações</a>
+                </div>
+            </article>
+
+            <!-- PIBID -->
+            <article class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h2 class="card-title h4">PIBID (Programa Institucional de Bolsas de Iniciação à Docência)</h2>
+                    <p>Concede bolsas para estudantes de licenciatura atuarem em escolas públicas, promovendo formação prática e melhoria da educação básica.</p>
+                    <p><strong>Quem pode participar?</strong></p>
+                    <ul>
+                        <li>Aluno regular de licenciatura em instituições públicas ou privadas com bolsa integral.</li>
+                        <li>Bom desempenho acadêmico conforme critérios institucionais.</li>
+                        <li>Seleção interna pela universidade ou instituto.</li>
+                    </ul>
+                    <a href="https://www.gov.br/capes/pt-br" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Mais informações</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+  <footer class="bg-dark text-light py-4" role="contentinfo">
+    <div class="container text-center border-top pt-3">
+      <a href="/e-duca-site/index.html" class="btn btn-outline-light btn-sm mb-3">Voltar ao Início</a>
+
+      <!-- Footer logo with extra spacing -->
+      <a href="/e-duca-site/index.html" class="d-inline-block mb-4" aria-label="Voltar à página inicial">
+        <img
+          src="/e-duca-site/assets/images/logofinal mono.png"
+          alt="Logotipo da E-duca"
+          width="60"
+          height="60"
+          loading="lazy"
+        />
+      </a>
+
+      <p class="mb-0">&copy; 2025 E-DUCA</p>
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
